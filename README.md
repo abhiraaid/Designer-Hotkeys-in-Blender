@@ -41,7 +41,7 @@ Mute/disable nodes - `Shift D`
 
 Toggle Hidden Node Sockets - `D`
 
-Frame All - `F` (Make Links - `Cmd F`)
+Frame All - `F` (Make Links - `Cmd Shift F`)
 
 #
 
