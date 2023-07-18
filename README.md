@@ -3,9 +3,7 @@
 This repo is a guide to set Substance Designer Hotkeys in Blender to make the transition smoother
 
 #
-[![RandomRotateXYZ](https://github-production-user-asset-6210df.s3.amazonaws.com/108699606/243787901-5e65b277-d3af-4f3c-a458-572eb6c0f907.png)](https://youtu.be/9dN-AmmAko4)
-
-![Designer Hotkey in Blender Thumbnail](https://github.com/abhiraaid/Designer-Hotkeys-in-Blender/assets/108699606/d02255c3-4adc-4a33-bd06-b3f7f1fbf19c)
+[![Designer Hotkeys in Blender](https://user-images.githubusercontent.com/108699606/254320734-d02255c3-4adc-4a33-bd06-b3f7f1fbf19c.png)](https://youtu.be/XWFic28tEhE)
 
 #
 
