@@ -22,7 +22,7 @@ Delete with Reconnect - `Backspace`(Reset Nodes - `Cmd Backspace`)
 Duplicate with Link- `Ctrl D` (Add driver - `Ctrl Cmd D`)
 Duplicate without Link - `Ctrl Shift D`
 _Troubleshooting: The above 2 shortcuts revert back to their original on every login. Solution is to use the following add-on which will change the keys to above mentioned everytime you press_ `Cmd Alt Spacebar` 
-Download the add-on: [`Dulicate Hotkey Fix.py`!]()
+Download the add-on: [`Dulicate Hotkey Fix.py` !](https://github.com/abhiraaid/Designer-Hotkeys-in-Blender/releases/tag/duplicate-hotkey-fix)
 
 
 Mute/disable nodes - `Shift D`
