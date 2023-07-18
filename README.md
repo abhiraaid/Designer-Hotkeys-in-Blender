@@ -11,7 +11,7 @@ Refer [this guide!](https://helpx.adobe.com/substance-3d-designer/getting-starte
 
 ### Hotkeys to modify in Blender
 
-#### Functions to Modify in Blender - `Hotkey` (Conflicting Functions - `New Hotkey for Conflict`)
+#### Functions - `New Hotkey` (Conflicting Functions - `New Hotkey for Conflict`)
 
 #
 
