@@ -8,7 +8,9 @@ This repo is a guide to set Substance Designer Hotkeys in Blender to make the tr
 #
 
 ### Reasoning
-Substance Designer have very few hotkeys, and it is not possible to change keymaps in Substance Designer. So, the best way to integrate the hotkeys is to change it in Blender
+Substance Designer have very few hotkeys, and it is not possible to change keymaps in Substance Designer.
+
+And it is not hard to associate all the nodes having similar shortcuts. So, the best way to integrate the hotkeys is to change it in Blender
 
 Refer [this guide](https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html) to see all the available hotkeys in Substance Designer 
 
