@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "Duplicate Hotkeys Fix",
+    "name": "Duplicate Hotkeys Fix (Alt+OS+Spacebar)",
     "author": "abhiraaid",
     "version": (1, 0),
     "blender": (3, 6, 0),
