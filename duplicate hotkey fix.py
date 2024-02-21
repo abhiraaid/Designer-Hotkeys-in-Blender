@@ -1,7 +1,7 @@
 bl_info = {
-    "name": "Duplicate Hotkeys Fix (Alt+OS+Spacebar)",
+    "name": "Duplicate Hotkeys Fix",
     "author": "abhiraaid",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (3, 6, 0),
     "category": "User",
 }
@@ -27,33 +27,12 @@ def set_custom_hotkeys():
             keymap_item.shift = False
             keymap_item.repeat = True
 
-class WM_OT_SetCustomHotkeysOperator(bpy.types.Operator):
-    bl_idname = "wm.set_custom_hotkeys_operator"
-    bl_label = "Set Custom Hotkeys Operator"
-
-    def execute(self, context):
-        set_custom_hotkeys()
-        return {'FINISHED'}
-
 def register():
-    bpy.utils.register_class(WM_OT_SetCustomHotkeysOperator)
-
-    wm = bpy.context.window_manager
-    km = wm.keyconfigs.addon.keymaps.new(name='Window', space_type='EMPTY')
-    kmi = km.keymap_items.new("wm.set_custom_hotkeys_operator", type='SPACE', value='PRESS', alt=True, oskey=True)
-
+    set_custom_hotkeys()
     print("Duplicate Hotkeys Fix add-on registered.")
 
 def unregister():
-    bpy.utils.unregister_class(WM_OT_SetCustomHotkeysOperator)
-
-    wm = bpy.context.window_manager
-    km = wm.keyconfigs.addon.keymaps.get('Window', None)
-    if km:
-        wm.keyconfigs.addon.keymaps.remove(km)
-
     print("Duplicate Hotkeys Fix add-on unregistered.")
 
 if __name__ == "__main__":
     register()
-
